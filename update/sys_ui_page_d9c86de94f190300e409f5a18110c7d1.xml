@@ -92,7 +92,7 @@ var handleSizingResponse = function(e) {
 				GlideDialogWindow.get().destroy();
 				return;
             }
-			if(ZAT_DETAILS.expires_in===0){
+			if(ZAT_DETAILS.expires_in>0){
 				alert("Integration with zoho assist expired.Kindly re-configure it in Zoho Assist.Kindly contact your Administrator.");
 				GlideDialogWindow.get().destroy();
                 return;
@@ -209,7 +209,7 @@ function openLoginPage(){
         <sys_created_on>2017-09-19 05:03:25</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d9c86de94f190300e409f5a18110c7d1</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name>assist_iframe_ui_action</sys_name>
         <sys_package display_value="zoho_assist_remote_support" source="x_145573_zoho_assi">d35925f34f300300e409f5a18110c766</sys_package>
         <sys_policy/>
@@ -217,6 +217,6 @@ function openLoginPage(){
         <sys_scope display_value="zoho_assist_remote_support">d35925f34f300300e409f5a18110c766</sys_scope>
         <sys_update_name>sys_ui_page_d9c86de94f190300e409f5a18110c7d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-03 08:16:06</sys_updated_on>
+        <sys_updated_on>2017-10-05 06:17:26</sys_updated_on>
     </sys_ui_page>
 </record_update>
