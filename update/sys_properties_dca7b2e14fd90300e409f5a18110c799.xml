@@ -13,7 +13,7 @@
         <sys_created_on>2017-09-19 10:46:04</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>dca7b2e14fd90300e409f5a18110c799</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>x_145573_zoho_assist.is_eu</sys_name>
         <sys_package display_value="zoho_assist_remote_support" source="x_145573_zoho_assi">d35925f34f300300e409f5a18110c766</sys_package>
         <sys_policy/>
@@ -21,9 +21,9 @@
         <sys_scope display_value="zoho_assist_remote_support">d35925f34f300300e409f5a18110c766</sys_scope>
         <sys_update_name>sys_properties_dca7b2e14fd90300e409f5a18110c799</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-04 06:14:07</sys_updated_on>
+        <sys_updated_on>2017-10-05 12:06:44</sys_updated_on>
         <type>boolean</type>
-        <value/>
+        <value>true</value>
         <write_roles>activity_admin,admin,agent_admin,approval_admin,assessment_admin,inventory_admin,itil_admin,oauth_admin,user_admin</write_roles>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=dca7b2e14fd90300e409f5a18110c799"/>
